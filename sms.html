@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Management System(SMS)</title>
+<style>
+body
+{
+background-image: linear-gradient(#ff3229, green);
+
+}
+marquee
+{
+color:white;
+font-size:35px;
+background-color:black;
+}
+ul#menu li{
+  display:inline;
+}
+button
+{
+height:55px;
+width:150px;
+}
+h1
+{
+color:red;
+background-color:yellow;
+}
+input[type="text"]
+{
+height:50px;
+width:300px;
+}
+input[type="submit"]
+{
+height:50px;
+width:300px;
+}
+button:hover
+{
+background-color:white;
+color:black;
+}
+button
+{
+border-radius:20px;
+}
+button
+{
+color:white;
+background-color:red;
+border-color:red;
+}
+</style>
+<script>
+function func()
+{
+var a=document.getElementById("name").value;
+var b=document.getElementById("names").value;
+document.writeln("ABC School");
+document.writeln("<br>");
+document.writeln("Welcome To School: "+a);
+document.writeln("<br>");
+document.writeln("Father's Name: "+b);
+}
+</script>
+</head>
+<body>
+<h1 style="text-align:center">Student Management System(SMS)</h1>
+<ul id="menu" type="none">
+<a href="c:\Users\Dell\Downloads\Project\sms.html"><li><button>Home</button></li></a>
+<li><button>About Us</button></li>
+<li><button>Syllabus</button></li>
+<li><button>Contact Us</button></li>
+<a href="c:\Users\Dell\Downloads\Project\career.html"><li><button>Career</button></li></a>
+<li><button>Result</button></li>
+</ul>
+<marquee>Last Date Of Addmissions 28-01-2022</marquee>
+<h2 style="text-align:center"><em>Addmissions Are Open</em></h2>
+<form method="post">
+<h3>Enter Your Name:</h3><input type="text" placeholder="John" id="name" required><br><br>
+<h3>Enter Your Father's Name:</h3><input type="text" placeholder="Father's Name" id="names" required><br><br>
+<input type="submit" onclick="func()">
+</body>
+</html>
+
